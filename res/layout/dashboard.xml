@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="10dip">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:orientation="vertical">
+
+		<TextView android:id="@+id/text1" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="出発時間まで"
+			android:textSize="16sp" />
+		<TextView android:id="@+id/text2" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="01:23:45"
+			android:textSize="60sp" android:gravity="right" android:textColor="#FF008000" />
+
+		<TextView android:id="@+id/event1" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:maxLines="1"
+			android:text="イベント" />
+		<TextView android:id="@+id/event2" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:maxLines="1"
+			android:text="イベント未取得" android:layout_marginLeft="10sp" />
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal">
+			<TextView android:layout_marginLeft="5sp" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="最寄駅" />
+			<TextView android:id="@+id/deperture_time" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="5sp" android:text="00:00発" />
+			<TextView android:id="@+id/deperture_location" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="5sp" android:maxLines="1" android:text="現在地未取得" />
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal">
+			<TextView android:layout_marginLeft="5sp" 
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="目的駅" />
+			<TextView android:id="@+id/arrival_time"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="5sp" android:text="00:00着" />
+			<TextView android:id="@+id/arrival_location"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="5sp" android:maxLines="1" android:text="目的地未取得" />
+		</LinearLayout>
+
+		<ListView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:id="@+id/list" android:background="@drawable/list_bar"
+			android:layout_margin="15dp" android:padding="5dp"
+			android:paddingLeft="5dp" android:paddingRight="5dp" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:drawableLeft="@drawable/left" android:text="前のルート"
+			android:id="@+id/prev_route" />
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:drawableRight="@drawable/right" android:text="次のルート"
+			android:id="@+id/next_route" />
+
+	</LinearLayout>
+
+</LinearLayout>

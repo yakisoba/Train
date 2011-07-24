@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">おでかけタイマー！</string>
+    <string name="last_train_time_label">終電時間</string>
+    <string name="next_schedule_time_label">予定時間</string>
+    <string name="seting_label">設定</string>
+    <string name="train_transfer_label">乗り換え案内</string>
+    <string name="next_schedule_label">次の予定</string>
+    
+    <string name="refresh_start">[おでかけタイマー！]\n情報更新開始</string>
+    <string name="address_error">[おでかけタイマー！]\n現在地取得に失敗しました。</string>
+    <string name="event_error">[おでかけタイマー！]\nイベント取得に失敗しました。</string>
+    <string name="route_error">[おでかけタイマー！]\nルート検索に失敗しました。</string>
+    <string name="lasttrain_error">[おでかけタイマー！]\n終電検索に失敗しました。</string>
+    <string name="station_error">[おでかけタイマー！]\n家の最寄駅が未設定です。</string>
+    <string name="refresh_end">[おでかけタイマー！]\nルート情報更新</string>
+</resources>

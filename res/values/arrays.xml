@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="alm_entries">
+            <item>10分毎</item>
+            <item>30分毎</item>
+            <item>1時間毎</item>
+        </string-array>
+        <string-array name="alm_entryValues">
+            <item>10</item>
+            <item>30</item>
+            <item>60</item>
+        </string-array>
+    </resources>

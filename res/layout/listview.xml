@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical" android:paddingBottom="10sp" android:paddingLeft="10sp">
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/Transfer"
+		android:text="交通手段" android:textSize="16sp" android:maxLines="1" />
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:id="@+id/cursor"
+			android:src="@drawable/cursor" android:scaleType="fitCenter" 
+			android:paddingLeft="10sp"/>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="vertical"
+			android:paddingLeft="10sp">
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/StartLocation"
+				android:text="--:--発　" android:textSize="14sp" android:maxLines="1" />
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/EndLocation"
+				android:text="--:--着　" android:textSize="14sp" android:maxLines="1" />
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
+			
+		

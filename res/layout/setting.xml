@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:key="refresh_onoff"
+		android:title="ルート検索更新" android:summary="1時間毎の情報更新：停止中"/>
+	<CheckBoxPreference android:key="alarm_onoff"
+		android:title="アラーム機能設定" android:summary="出発時間のアラーム機能：停止中"/>
+	<ListPreference android:key="set_alarm_time"
+		android:title="出発前アラーム時間" android:summary="出発時間の何分前にアラームを鳴らすか設定"
+		android:dialogTitle="アラーム時間設定" android:entries="@array/alm_entries"
+		android:entryValues="@array/alm_entryValues" />
+	<EditTextPreference android:key="set_home_station"
+		android:title="終電到着地設定" android:summary="終電検索に使用する到着地を設定"
+		android:inputType="text" android:dialogTitle="最寄駅設定" />
+	<EditTextPreference android:key="set_current_location"
+		android:title="現在地設定" android:summary="GPSが取得できない場合、この場所からのルートを検索"
+		android:inputType="text" android:dialogTitle="現在地設定" />
+</PreferenceScreen>
+

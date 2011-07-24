@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingLeft="5dip" android:paddingRight="5dip">
+	
+	<ImageView android:id="@+id/title_icon" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:layout_weight="5"
+		android:gravity="center" android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp" android:scaleType="centerInside"
+		android:src="@drawable/nextschedule" />
+	<ImageView android:id="@+id/actionbar1" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:gravity="center"
+		android:layout_marginRight="5dp" android:scaleType="centerInside"
+		android:src="@drawable/ic_menu_foward" />
+	<ImageView android:id="@+id/actionbar2" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:gravity="center"
+		android:layout_marginRight="5dp" android:scaleType="centerInside"
+		android:src="@drawable/ic_menu_refresh" />
+
+</LinearLayout>
